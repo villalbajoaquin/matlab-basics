@@ -1,6 +1,6 @@
 # Prácticas con MATLAB
 ### Repositorio: [matlab-basics](https://github.com/villalbajoaquin/matlab-basics)
-_Scripts .m de ejercicios de practica de MATLAB R2015a para INFORMATICA BASICA de 2do de Ingeniería Química_
+_Scripts .m de ejercicios de practica de MATLAB R2015a para INFORMATICA BASICA de 2do de Universidad_
 
 ## Creación de un Archivo
 Creamos un nuevo script haciendo clic en el botón **New Script** en la pestaña **HOME**, y lo guardamos en la carpeta actual como un archivo .m
