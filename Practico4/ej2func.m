@@ -13,14 +13,15 @@ op = input('Ingrese opcion: ');
 switch op
     case 1
         a = input('Ingrese valor en pulgadas: ');
+        % Invoco la funcion
+        [b] = conversion(op, a);
+        fprintf('%g pulgadas = %g centimetros\n', a,b)
     case 2
         a = input('Ingrese valor en centimetros: ');
+        % Invoco la funcion
+        [b] = conversion(op, a);
+        fprintf('%g centimetros = %g pulgadas\n', a,b)
     otherwise
         a = NaN;
         disp(' Opcion no valida ')
 end
-
-% Invoco la funcion
-[b] = conversion(op, a);
-
-fprintf('%g pulgadas = %g centimetros\n', a,b)
