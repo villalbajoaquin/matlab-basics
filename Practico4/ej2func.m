@@ -10,10 +10,14 @@ disp(' ')
 
 op = input('Ingrese opcion: ');
 
-if op == 1
-    a = input('Ingrese valor en pulgadas: ');
-else
-    a = input('Ingrese valor en centimetros: ');
+switch op
+    case 1
+        a = input('Ingrese valor en pulgadas: ');
+    case 2
+        a = input('Ingrese valor en centimetros: ');
+    otherwise
+        a = NaN;
+        disp(' Opcion no valida ')
 end
 
 % Invoco la funcion
