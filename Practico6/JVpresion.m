@@ -18,5 +18,4 @@ else
     b = 'Velocidad fuera del rango permitido';
 end
 
-%----------------------------------
 end
